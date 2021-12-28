@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: bb3a5c92641af1e4fbdd0ec7d360ab57
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Ostblock
+  fontNames:
+  - Ostblock
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c04dfc46fc17fe94294b19132e58ebb8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
