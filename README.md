@@ -1,4 +1,4 @@
-# Eden Unity Builder Open Source
+# Eden: Unity Builder Development
 Open source remake/port of the game Eden World Builder for Android and PC.
 Original game a block based building sandbox created by Ari Ronen for iOS.
 
