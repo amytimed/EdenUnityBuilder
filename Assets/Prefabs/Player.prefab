@@ -136,7 +136,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3281571667482580985}
-  - component: {fileID: 7349541986102495782}
   - component: {fileID: 3281571667482580984}
   - component: {fileID: 3281571667482580991}
   - component: {fileID: 7380789535921998986}
@@ -167,33 +166,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7349541986102495782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3281571667482580986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85a79d0b4f2c89b42802c77102202150, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharacterCamera: {fileID: 3281571668833327019}
-  SoundSource: {fileID: 5322209991715639051}
-  Gravity: 1
-  MoveSpeed: 6
-  MoveInput: {fileID: 0}
-  CrouchInput: 0
-  CrouchSpeed: 3
-  RunInput: Sprint
-  RunSpeed: 9
-  JumpSpeed: 10
-  JumpInput: Jump
-  JumpReuse: 0.1
-  MultiJump: 2
-  MultiJumpMessageReciever: {fileID: 3281571667482580986}
-  JumpBlock: 0
 --- !u!54 &3281571667482580984
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -445,7 +417,7 @@ GameObject:
   - component: {fileID: 3281571668833327019}
   - component: {fileID: 3281571668833327061}
   - component: {fileID: 3281571668833327063}
-  - component: {fileID: 7380789536520939690}
+  - component: {fileID: 6396766303418991282}
   m_Layer: 2
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -526,7 +498,7 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3281571668833327056}
   m_Enabled: 1
---- !u!114 &7380789536520939690
+--- !u!114 &6396766303418991282
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -535,16 +507,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3281571668833327056}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2b3a1aa9981ed24c94c040cc646c54f, type: 3}
+  m_Script: {fileID: 11500000, guid: 47de8e6bd9c05642fbe606146cd286ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HorizontalRotatingTransform: {fileID: 3281571668833327018}
-  VerticalRotatingTransform: {fileID: 3281571668833327018}
-  Sensitivity: 0
-  MaxVerticalAngle: 90
-  MinVerticalAngle: -90
-  LookInput: {fileID: 0}
-  RotationSpeed: 1
 --- !u!1 &7380789535933347006
 GameObject:
   m_ObjectHideFlags: 0

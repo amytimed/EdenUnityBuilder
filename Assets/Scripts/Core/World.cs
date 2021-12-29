@@ -518,7 +518,8 @@ public class World : MonoBehaviour
     public void SaveAndQuit()
     {
         BottomTextInfo.text = "Saving and quiting...";
-        EdenWorldDecoder.Instance.SaveWorld(Application.persistentDataPath + "/" + Name + ".eden");
+        // EdenWorldDecoder.Instance.SaveWorld(Application.persistentDataPath + "/" + Name + ".eden");
+        // Saving is not done yet, so just quit.
         Invoke("QuitToMenu", 1f);
     }
 

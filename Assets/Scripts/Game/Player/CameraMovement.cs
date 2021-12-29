@@ -8,8 +8,6 @@ public class CameraMovement : MonoBehaviour
 	
     public Transform VerticalRotatingTransform;
 	
-    public float Sensitivity;
-	
     public float MaxVerticalAngle = 90;
 	
     public float MinVerticalAngle = -90;
@@ -25,8 +23,8 @@ public class CameraMovement : MonoBehaviour
 
     void Update()
     {
-		_theHorizontalVector = LookInput.TouchDist.x * Sensitivity + HorizontalRotatingTransform.eulerAngles.y;
-        _theVerticalVector = -LookInput.TouchDist.y * Sensitivity + _theVerticalVector;
+		_theHorizontalVector = LookInput.TouchDist.x * GameSettings.Sensitivity + HorizontalRotatingTransform.eulerAngles.y;
+        _theVerticalVector = -LookInput.TouchDist.y * GameSettings.Sensitivity + _theVerticalVector;
         _theVerticalVector = Mathf.Clamp(_theVerticalVector, MinVerticalAngle, MaxVerticalAngle);
 
         HorizontalRotatingTransform.rotation = Quaternion.Lerp(HorizontalRotatingTransform.rotation, Quaternion.Euler(0, _theHorizontalVector, 0), RotationSpeed);
