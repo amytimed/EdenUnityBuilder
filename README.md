@@ -1,3 +1,5 @@
+# SEE https://github.com/maysunrise/eden-unity-builder FOR MORE UP-TO-DATE VERSION!
+
 # Eden: Unity Builder Development
 Open source remake/port of the game Eden World Builder for Android and PC.
 
